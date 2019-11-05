@@ -1,0 +1,35 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  max-width: 99.9vw;
+  margin: auto;
+}
+
+#app-footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  align-items: flex-end;
+}
+
+.movie-display-one {
+  padding: 1rem;
+  background: #fbfbfb;
+}
+
+.text-light.nav-link.active,
+.text-light.nav-link:hover,
+.navbar-brand:hover {
+  color: #e9e167 !important;
+}
+.text-light.nav-link {
+  font-weight: bold;
+}
